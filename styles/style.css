@@ -24,7 +24,6 @@ li,a{
 .menu-bar{
     display: flex;
     justify-content: space-between;
-    background-color: #FFF;
     align-items: center;
     max-width: 1170px;
     margin-left: auto;
@@ -38,7 +37,7 @@ li,a{
     color: #0058a9;
 }
 .nav__link{
-    width: 800px;
+    /*width: 800px;*/
     display: flex;
     justify-content: space-around;
 }
@@ -78,11 +77,11 @@ li,a{
 /* Grille*/
 
 .image-grid{
-    width: auto;
-    height: s;
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    background-color: #f7f9fa;
 }
 .image-grid>img{
     width:100%;
